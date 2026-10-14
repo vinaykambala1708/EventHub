@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" fill="none">
+  <defs><linearGradient id="sky" x1="600" y1="0" x2="600" y2="700" gradientUnits="userSpaceOnUse"><stop stop-color="#7BD7CC"/><stop offset=".56" stop-color="#F5D39B"/><stop offset="1" stop-color="#F18E6D"/></linearGradient></defs>
+  <path fill="url(#sky)" d="M0 0h1200v700H0z"/><circle cx="929" cy="180" r="90" fill="#FFF2BD"/>
+  <path d="m0 411 190-177 173 155 177-212 221 239 163-164 276 158v290H0V411Z" fill="#519D91"/>
+  <path d="m0 493 246-167 192 174 214-169 201 156 186-153 161 115v251H0V493Z" fill="#327B76"/>
+  <path d="M0 560c203-61 383-31 566 18 222 59 426 58 634-20v142H0V560Z" fill="#1E625F"/>
+  <path d="M430 700c87-125 168-180 237-180 52 0 88 33 133 72" stroke="#FFE7AD" stroke-linecap="round" stroke-width="15" stroke-dasharray="2 25"/>
+  <circle cx="600" cy="387" r="28" fill="#342F51"/><path d="m591 421-35 82 66 30 28-78-59-34Z" fill="#F06F67"/><path d="m567 487-42 75m100-43 39 64m-75-127-72-14m119 20 59-40" stroke="#342F51" stroke-linecap="round" stroke-width="18"/>
+  <path d="m172 132 11 23 25 4-18 18 4 26-22-12-22 12 4-26-18-18 25-4 11-23Z" fill="#FFF2BD"/>
+</svg>
