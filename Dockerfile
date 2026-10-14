@@ -18,7 +18,7 @@ FROM eclipse-temurin:17-jre-alpine AS runtime
 WORKDIR /app
 ENV SPRING_PROFILES_ACTIVE=prod
 RUN addgroup -S eventflow && adduser -S eventflow -G eventflow
-COPY --from=backend-build /workspace/backend/target/event-management-backend-*.jar /app/app.jar
+COPY --from=backend-build /workspace/backend/target/eventhub-backend-*.jar /app/app.jar
 USER eventflow
 EXPOSE 8080
 ENTRYPOINT ["java", "-XX:MaxRAMPercentage=75.0", "-jar", "/app/app.jar"]
