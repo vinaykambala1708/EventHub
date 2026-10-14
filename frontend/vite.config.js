@@ -5,7 +5,7 @@ import { defineConfig } from 'vite'
 export default defineConfig({
   plugins: [react()],
   build: {
-    outDir: '../backend/src/main/resources/static',
+    outDir: process.env.VERCEL === '1' ? 'dist' : '../backend/src/main/resources/static',
     emptyOutDir: true,
   },
   server: {
